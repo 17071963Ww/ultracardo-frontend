@@ -31,7 +31,7 @@ export default function App() {
       <Features />
       <Divisor />
 
-      <section className="container mx-auto px-4 py-6" name="products">
+      <section className="container mx-auto px-4 py-6" name="products" id='products'>
         <div className="mb-6 flex justify-center">
           <input
             type="text"

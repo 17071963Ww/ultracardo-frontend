@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import React, { useEffect } from "react";
+import React, { useEffect } from "react";                                   
 import products from "../data/products";
 
 export default function ProductDetail() {
@@ -126,7 +126,7 @@ export default function ProductDetail() {
                 placeholder="Deixe seu comentário (simulado)"
                 disabled
               />
-              <button
+              <button 
                 type="button"
                 className="bg-blue-600 px-6 py-2 rounded font-semibold hover:bg-blue-700 transition cursor-not-allowed"
                 disabled
