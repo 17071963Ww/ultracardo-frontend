@@ -1,20 +1,14 @@
 import { useState } from 'react';
 import Header from '../components/Header.jsx';
+import products from '../data/products';
+
 
 export default function AdminDashboard() {
   const tabs = ['Produtos', 'Fretes', 'Categorias', 'Pedidos'];
   const [activeTab, setActiveTab] = useState('Produtos');
 
 const [data, setData] = useState({
-    Produtos: [
-      { id: 1, name: 'Produto A', price: 'R$ 10,00', category: 'Categoria 1' },
-      { id: 2, name: 'Produto B', price: 'R$ 20,00', category: 'Categoria 2' },
-      { id: 3, name: 'Produto C', price: 'R$ 30,00', category: 'Categoria 3' },
-      { id: 4, name: 'Produto D', price: 'R$ 40,00', category: 'Categoria 1' },
-      { id: 5, name: 'Produto E', price: 'R$ 50,00', category: 'Categoria 2' },
-      { id: 6, name: 'Produto F', price: 'R$ 60,00', category: 'Categoria 3' },
-      { id: 7, name: 'Produto G', price: 'R$ 70,00', category: 'Categoria 1' },
-    ],
+    Produtos: products,
     Fretes: [
       { id: 1, region: 'Região Sul', cost: 'R$ 15,00' },
       { id: 2, region: 'Região Norte', cost: 'R$ 25,00' },
