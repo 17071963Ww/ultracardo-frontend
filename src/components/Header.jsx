@@ -45,7 +45,7 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-30 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-white">UltraCardo</h1>
+          <h1 className="text-2xl font-bold text-white">TechCardo</h1>
           <nav className="hidden md:flex space-x-6 text-gray-200">
             {menuItems.map(({ label, href, onClick }) =>
               onClick ? (

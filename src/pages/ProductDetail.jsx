@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import React, { useEffect } from "react";                                   
+import { useEffect } from "react";                                   
 import products from "../data/products";
 
 export default function ProductDetail() {

@@ -1,7 +1,7 @@
 const features = [
   { id: 1, title: 'Frete Grátis', desc: 'Em compras acima de R$ 199,90', icon: '🚚' },
   { id: 2, title: 'Suporte 24/7', desc: 'Estamos sempre disponíveis', icon: '📞' },
-  { id: 3, title: 'Pagamento Seguro', desc: 'Checkout com SSL', icon: '🔒' },
+  { id: 3, title: 'Pagamento Seguro', desc: 'Criptografado', icon: '🔒' },
 ];
 
 export default function Features() {
@@ -16,6 +16,7 @@ export default function Features() {
           </div>
         ))}
       </div>
+      <div id="top"></div>
     </section>
   );
-}
+} 
